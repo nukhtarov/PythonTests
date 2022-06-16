@@ -10,7 +10,7 @@ from helpers.base_helper import get_filtered_animal_name
     pytest.param('sold', 1, id='sold test'),
     pytest.param('available', 10, id='available test')
 ])
-def test_5_helper(state, expected):
+def test_6_photo(state, expected):
     """
 
     :param state:
@@ -25,3 +25,5 @@ def test_5_helper(state, expected):
 
     print(animal_with_filter)
     return animal_with_filter
+
+
